@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660a8b1133c438a9dac95c509726608, type: 3}
+  m_Name: WeaponCatalogue
+  m_EditorClassIdentifier: 
+  weaponSettings:
+  - WeaponAssetReference:
+      m_AssetGUID: bac79aa2a0057e5429a664d3f336da3d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    WeaponDamage: 1
+    WeaponMultiplier: 2
+    CharacterMultiplier: 2
+  - WeaponAssetReference:
+      m_AssetGUID: 4d0814cafad460246890ec829fa7071d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    WeaponDamage: 2
+    WeaponMultiplier: 1.5
+    CharacterMultiplier: 1.5
+  - WeaponAssetReference:
+      m_AssetGUID: 17cf6e9fc28f3a544bc062d510f66f4a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    WeaponDamage: 3
+    WeaponMultiplier: 1
+    CharacterMultiplier: 1
